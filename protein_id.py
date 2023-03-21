@@ -32,8 +32,8 @@ def synchronize(ncid,lock):
 if __name__ == '__main__':
     lock = threading.Lock()
     Entrez.email = '1019171694@qq.com'
-    ncid_list = [i.strip() for i in open('ncid.list')]
+    ncid_list = [i.strip() for i in open('ncid.list.txt')]
     with ThreadPoolExecutor(max_workers=5) as executor:
-        for ncid in ncid_list:
+        for ncid in ncid_list.txt:
             executor.submit(synchronize,ncid,lock)
     
