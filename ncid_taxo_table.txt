@@ -1,0 +1,2 @@
+YP_009361921.1	NC_034446.1	Ateline alphaherpesvirus 1 (Spider monkey herpesvirus)	Herpesvirales	Herpesviridae
+YP_009388530.1	NC_035117.1	Common bottlenose dolphin gammaherpesvirus 1 strain Sarasota	Herpesvirales	Herpesviridae
